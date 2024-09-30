@@ -10,3 +10,12 @@ a{color:#ffffff;
         bottom: 0;
         width: 100%;
     }
+
+    .zigzag-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .zigzag-row:nth-child(even) .col-md-6:first-child {
+        order: 2;
+    }
