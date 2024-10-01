@@ -64,3 +64,76 @@ p{
 body{
     background-color: rgb(240, 237, 237);
 }
+/* Style for anchor tags */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+/* Style for footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for zigzag row layout */
+.zigzag-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-size: contain;
+}
+
+/* Reverse order for even zigzag rows */
+.zigzag-row:nth-child(even) .col-md-6:first-child {
+    order: 2;
+}
+
+/* Style for hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Hero.png") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Style for popout background */
+.popoutbackround {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+/* Style for paragraphs */
+p {
+    padding: 0.5em;
+    
+}
+
+/* Style for popout background in gallery */
+.popoutbackroundgallery {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Style for body */
+body {
+    background-color: rgb(240, 237, 237);
+}
