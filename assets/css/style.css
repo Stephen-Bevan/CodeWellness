@@ -15,7 +15,37 @@ a{color:#ffffff;
         display: flex;
         align-items: center;
         margin-bottom: 20px;
+        background-size: contain;
     }
     .zigzag-row:nth-child(even) .col-md-6:first-child {
         order: 2;
     }
+    /* Hero section */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/Hero.png") no-repeat center center/cover;
+  position: relative;
+}
+.popoutbackround {
+
+    background-color: rgb(0,0,0,0.5);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: .5rem;
+}
+p{
+    padding: 0.5em;
+    
+}
+.popoutbackroundgallery{
+    background-color: rgb(0,0,0,0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
