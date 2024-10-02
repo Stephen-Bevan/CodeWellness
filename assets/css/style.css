@@ -137,3 +137,15 @@ p {
 body {
     background-color: rgb(240, 237, 237);
 }
+
+
+.centerflex{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
